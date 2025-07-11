@@ -19,4 +19,4 @@ namespace DAL.Model
         public virtual HoaDon? HoaDon { get; set; }
     }
 }
-// This code defines a partial class for DoanhThu,
+// anhtu
