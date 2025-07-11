@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PRL.Properties
+namespace PRL
 {
-    public partial class FormDoanhThu : Form
+    public partial class FormGiamGia : Form
     {
-        public FormDoanhThu()
+        public FormGiamGia()
         {
             InitializeComponent();
         }
