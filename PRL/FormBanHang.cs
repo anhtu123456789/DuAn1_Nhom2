@@ -1,15 +1,11 @@
 namespace PRL
 {
-    public partial class FormBanHang : Form
+    public partial class cbb_LoaiHang : Form
     {
-        public FormBanHang()
+        public cbb_LoaiHang()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
