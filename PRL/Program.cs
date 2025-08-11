@@ -1,4 +1,7 @@
-namespace PRL
+using PRL;
+using System.Globalization;
+
+namespace DuAn1QLBH
 {
     internal static class Program
     {
@@ -8,10 +11,15 @@ namespace PRL
         [STAThread]
         static void Main()
         {
+
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new cbb_LoaiHang());
+            ApplicationConfiguration.Initialize(); Thread.CurrentThread.CurrentCulture = new CultureInfo("vi-VN");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("vi-VN");
+
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new FormDangNhap());
         }
     }
 }

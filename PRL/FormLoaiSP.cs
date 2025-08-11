@@ -1,6 +1,6 @@
 ﻿using BUS.Servisces;
 using DAL.Model;
-using DAL.Models;
+
 using Microsoft.EntityFrameworkCore.Query.Internal;
 using System;
 using System.Collections.Generic;

@@ -1,6 +1,6 @@
 using Azure.Core.Pipeline;
 using BUS.Servisces;
-using DAL.Models;
+using DAL.Model;
 using DAL.Repositories;
 using System;
 using System.Collections.Generic;
